@@ -1,0 +1,40 @@
+h1 {
+  font-family: IRANSans;
+  font-size: 25px;
+}
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/IRANSansWeb_Light.eot);
+  src: url(../fonts/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"), url(../fonts/IRANSansWeb_Light.woff2) format("woff2"), url(../fonts/IRANSansWeb_Light.woff) format("woff"), url(../fonts/IRANSansWeb_Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/IRANSansWeb_Medium.eot);
+  src: url(../fonts/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"), url(../../fonts/IRANSansWeb_Medium.woff2) format("woff2"), url(../fonts/IRANSansWeb_Medium.woff) format("woff"), url(../fonts/IRANSansWeb_Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: hwp_logo;
+  src: url(../fonts/hwp_logo.eot?y681tf);
+  src: url(../fonts/hwp_logo.eot?y681tf#iefix) format("embedded-opentype"), url(../fonts/hwp_logo.ttf?y681tf) format("truetype"), url(../fonts/hwp_logo.woff?y681tf) format("woff"), url(../fonts/hwp_logo.svg?y681tf#hwp_logo) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+/*# sourceMappingURL=main.css.map */

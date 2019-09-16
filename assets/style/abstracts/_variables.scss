@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// fonts => f-name_font
+$f-iransans: IRANSans;
+
+h1{
+  font-family: $f-iransans;
+  font-size: 25px
+}

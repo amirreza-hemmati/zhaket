@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/IRANSansWeb_Light.eot);
+  src: url(../fonts/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/IRANSansWeb_Light.woff2) format("woff2"),
+    url(../fonts/IRANSansWeb_Light.woff) format("woff"),
+    url(../fonts/IRANSansWeb_Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/IRANSansWeb_Medium.eot);
+  src: url(../fonts/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"),
+    url(../../fonts/IRANSansWeb_Medium.woff2) format("woff2"),
+    url(../fonts/IRANSansWeb_Medium.woff) format("woff"),
+    url(../fonts/IRANSansWeb_Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: hwp_logo;
+  src: url(../fonts/hwp_logo.eot?y681tf);
+  src: url(../fonts/hwp_logo.eot?y681tf#iefix) format("embedded-opentype"),
+    url(../fonts/hwp_logo.ttf?y681tf) format("truetype"),
+    url(../fonts/hwp_logo.woff?y681tf) format("woff"),
+    url(../fonts/hwp_logo.svg?y681tf#hwp_logo) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
