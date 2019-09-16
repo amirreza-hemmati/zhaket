@@ -8,16 +8,12 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 65px 0 90px 0;
-
-  .container {
-    position: relative;
-
-    .section-breadcrumbs__links {
-      position: absolute;
-      bottom: -78px;
-      right: 15px;
-    }
-  }
+  position: relative;
+      .section-breadcrumbs__links {
+        position: absolute;
+        bottom: 12px;
+        right: 15px;
+      }
 }
 
 #section-body {

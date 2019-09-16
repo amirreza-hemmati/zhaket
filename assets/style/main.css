@@ -282,15 +282,12 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 65px 0 90px 0;
-}
-
-#section-breadcrumbs .container {
   position: relative;
 }
 
-#section-breadcrumbs .container .section-breadcrumbs__links {
+#section-breadcrumbs .section-breadcrumbs__links {
   position: absolute;
-  bottom: -78px;
+  bottom: 12px;
   right: 15px;
 }
 
