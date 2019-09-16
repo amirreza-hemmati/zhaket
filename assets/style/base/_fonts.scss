@@ -1,35 +1,67 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+/* این فایل وظیفه تعریف و بارگذاری فونت های «فونت ایران» را برعهده دارد */
+/* پیشنهاد می شود از این روش استفاده کنید */
 
-
+// font vazir
 @font-face {
-  font-family: IRANSans;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/IRANSansWeb_Light.eot);
-  src: url(../fonts/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"),
-    url(../fonts/IRANSansWeb_Light.woff2) format("woff2"),
-    url(../fonts/IRANSansWeb_Light.woff) format("woff"),
-    url(../fonts/IRANSansWeb_Light.ttf) format("truetype");
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family: IRANSans;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../fonts/IRANSansWeb_Medium.eot);
-  src: url(../fonts/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"),
-    url(../../fonts/IRANSansWeb_Medium.woff2) format("woff2"),
-    url(../fonts/IRANSansWeb_Medium.woff) format("woff"),
-    url(../fonts/IRANSansWeb_Medium.ttf) format("truetype");
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Bold.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Bold.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Bold.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
-  font-family: hwp_logo;
-  src: url(../fonts/hwp_logo.eot?y681tf);
-  src: url(../fonts/hwp_logo.eot?y681tf#iefix) format("embedded-opentype"),
-    url(../fonts/hwp_logo.ttf?y681tf) format("truetype"),
-    url(../fonts/hwp_logo.woff?y681tf) format("woff"),
-    url(../fonts/hwp_logo.svg?y681tf#hwp_logo) format("svg");
-  font-weight: 400;
-  font-style: normal;
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Black.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Black.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Black.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Medium.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Medium.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Medium.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Light.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Light.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Light.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Thin.eot');
+    src: url('../../../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Thin.woff2') format('woff2'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Thin.woff') format('woff'),
+         url('../../../node_modules/vazir-font/dist/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
 }

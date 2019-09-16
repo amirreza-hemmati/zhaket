@@ -1,3 +1,337 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+#section-breadcrumbs {
+  background: linear-gradient(rgba(40, 53, 61, 0.85), rgba(40, 53, 61, 0.85)),
+    url(../image/search_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 65px 0 90px 0;
+
+  .container {
+    position: relative;
+
+    .section-breadcrumbs__links {
+      position: absolute;
+      bottom: -78px;
+      right: 15px;
+    }
+  }
+}
+
+#section-body {
+  padding-top: 30px;
+  .container {
+    @extend %d-flex;
+    @extend %justify-content-between;
+    @extend %flex-wrap;
+
+    .section-body__package {
+      margin-bottom: 30px;
+      .card-content {
+        flex-basis: 50%;
+        @extend %d-flex;
+        @extend %justify-content-between;
+        @extend %align-items-center;
+        @extend %flex-wrap;
+
+        @include risponsive("xm") {
+          flex-direction: row;
+        }
+        @include risponsive("sm") {
+          flex-direction: row-reverse;
+        }
+        .package-share {
+          // flex-basis: 50%;
+
+          @include risponsive("xm") {
+            flex-basis: 100%;
+            margin-top: 20px;
+          }
+          @include risponsive("sm") {
+            flex-basis: auto;
+            margin-top: 0;
+          }
+          span {
+            color: $c-secon;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 40px;
+          }
+        }
+
+        .package-keys {
+          // flex-basis: 50%;
+          @extend %d-flex;
+          @extend %justify-content-end;
+          .package-keys__btn {
+            @include typography(
+              $c-white,
+              14px,
+              null,
+              null,
+              null,
+              null,
+              null,
+              10px 10px,
+              null
+            );
+            background-color: $c-secon;
+            text-decoration: none;
+            margin-right: 10px;
+            border-radius: 2px;
+            transition: 0.4s;
+            @extend %d-flex;
+            @extend %justify-content-center;
+            @extend %align-items-center;
+            i {
+              font-size: 18px;
+              margin-left: 10px;
+              color: $c-white;
+            }
+          }
+
+          .package-keys-hover {
+            &:hover {
+              background-color: $c-success !important;
+              color: $c-white !important;
+            }
+          }
+
+          @include risponsive("xm") {
+            flex-basis: 100%;
+          }
+          @include risponsive("sm") {
+            flex-basis: auto;
+          }
+        }
+      }
+    }
+
+    .section-body__more-package {
+      .card {
+        .card-header {
+          @extend %d-flex;
+          @extend %justify-content-between;
+          @extend %align-items-center;
+          padding: 15px 0;
+          margin-bottom: 15px;
+          border-bottom: 1px solid #eff2f3;
+          span {
+            font-size: 25px;
+            color: $c-price;
+            direction: rtl;
+            span {
+              font-size: 16px;
+            }
+          }
+
+          a {
+            text-decoration: none;
+            // position: relative;
+
+            i {
+              color: $c-heart;
+              font-size: 25px;
+            }
+          }
+        }
+
+        .card-body {
+          p {
+            margin-bottom: 10px;
+            font-size: 12px;
+            direction: rtl;
+            color: $c-fdark;
+            text-align: right;
+          }
+
+          .alert-secondary {
+            padding: 15px;
+            background: #f8f8f8;
+            border-radius: 2px;
+            margin: 15px 0;
+            direction: rtl;
+            h5 {
+              margin-bottom: 10px;
+            }
+
+            ul {
+              list-style: none;
+              li {
+                color: $c-fdark;
+                font-size: 12px;
+                &:before {
+                  content: "\f00c";
+                  display: inline-block;
+                  font: normal normal normal 14px/1 FontAwesome;
+                  text-rendering: auto;
+                  margin-left: 5px;
+                  font-size: 16px;
+                  color: #41afa5;
+                  margin-top: 4px;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+
+          .price-form {
+            direction: rtl;
+            text-align: right;
+            color: $c-fdark;
+            font-size: 14px;
+            margin-bottom: 10px;
+            input {
+              margin-left: 5px;
+              position: relative;
+              &:before {
+                width: 16px;
+                height: 16px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                background: #fff;
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                right: 0;
+              }
+              &:checked {
+                &:after {
+                  display: inline-block;
+                  font: normal normal normal 14px/1 FontAwesome;
+                  text-rendering: auto;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  content: "\f00c";
+                  position: absolute;
+                  right: 0;
+                  top: 0;
+                  width: 16px;
+                  height: 16px;
+                  text-align: center;
+                  line-height: 16px;
+                  opacity: 1;
+                  color: #666;
+                }
+              }
+            }
+          }
+
+          .go-to-buy-box {
+            width: 100%;
+            position: relative;
+            height: 38px;
+            a {
+              text-align: center;
+              color: $c-white;
+              border-radius: 2px;
+              font-weight: 700;
+              font-size: 16px;
+              text-decoration: none;
+              width: 100%;
+              padding: 5px 0;
+              background-color: #56b881;
+              position: absolute;
+              transition: 0.3s;
+
+              &:hover {
+                background-color: #51ac79;
+                color: #fff;
+              }
+              &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: block;
+                width: 0;
+                padding-top: 0;
+                border-radius: 100%;
+                background-color: rgba(255, 255, 255, 0.1);
+                transform: translate(-50%, -50%);
+              }
+              &:active {
+                &:before {
+                  width: 120%;
+                  padding-top: 120%;
+                  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+                }
+              }
+
+              i {
+                font-size: 24px;
+              }
+            }
+          }
+          .border-price {
+            border-top: 1px solid #eff2f3;
+            margin-top: 25px;
+            padding-top: 15px;
+          }
+
+          .star-price {
+            @extend %d-flex;
+            @extend %justify-content-between;
+            border-bottom: 1px solid #eff2f3;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            .five-star {
+              font-family: FontAwesome;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 24px;
+              color: #7b868a;
+            }
+
+            .score-price {
+              height: 24px;
+              line-height: 24px;
+              float: right;
+              color: #7b868a;
+            }
+          }
+
+          .product-price{
+              display: flex;
+              justify-content: flex-end;
+              div{
+                  display: flex;
+                  flex-direction: row-reverse;
+                  img{
+                    max-width: 40px;
+                    height: auto;
+                    min-width: 27px;
+                    margin: 0 5px;
+                  }
+              }
+          }
+        }
+      }
+    }
+
+    @include risponsive("xm") {
+      flex-direction: row;
+      .section-body__more-package {
+        flex-basis: 100%;
+      }
+
+      .section-body__package {
+        flex-basis: 100%;
+      }
+    }
+
+    @include risponsive("lg") {
+      flex-direction: row-reverse;
+      .section-body__more-package {
+        flex-basis: 30%;
+      }
+
+      .section-body__package {
+        flex-basis: 68%;
+      }
+    }
+  }
+}

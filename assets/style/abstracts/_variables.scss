@@ -2,10 +2,17 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-// fonts => f-name_font
-$f-iransans: IRANSans;
+// colors => c-name_color
+$c-white: #fff;
+$c-secon: #aeb6b8;
+$c-black: #000;
+$c-google: #d14836;
+$c-twitter: #1dcaff;
+$c-facebook: #3b5998;
+$c-success: #56b881;
+$c-price: #50667f;
+$c-heart: #e55e5e;
+$c-fdark: #212121;
 
-h1{
-  font-family: $f-iransans;
-  font-size: 25px
-}
+// fonts-famliy => f-name-font
+$f-vazir: Vazir;

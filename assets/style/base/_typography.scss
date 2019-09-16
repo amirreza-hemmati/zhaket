@@ -1,3 +1,93 @@
 /**
  * Basic typography style for copy text
  */
+//  typography($color,$font-size,$font-weight,$line-height,$dir,$text-align,$font-family,$padding,$margin)
+
+#section-breadcrumbs {
+  .section-breadcrumbs__content {
+    p {
+      @include typography(
+        $c-white,
+        30px,
+        700,
+        null,
+        rtl,
+        right,
+        null,
+        null,
+        null
+      );
+    }
+
+    nav {
+      text-align: right;
+      direction: rtl;
+      font-size: 14px;
+
+      .activate{
+          &::before{
+              content: ">";
+              padding: 0 15px;
+              font-size: 14px;
+              color: $c-secon;
+          }
+      }
+
+      a {
+        @include typography(
+          $c-secon,
+          14px,
+          null,
+          null,
+          rtl,
+          right,
+          null,
+          null,
+          null
+        );
+        text-decoration: none;
+        &:hover{
+            color: $c-white;
+        }
+      }
+
+      span {
+        @include typography(
+          $c-white,
+          14px,
+          null,
+          null,
+          rtl,
+          right,
+          null,
+          null,
+          0 0 15px 0
+        );
+      }
+    }
+  }
+
+  .section-breadcrumbs__links{
+
+      a{
+        margin-left: 5px;
+        background: #142736;
+        height: 40px;
+        border-radius: 2px 2px 0 0;
+        padding: 13px 15px;
+        font-size: 14px;
+        font-weight: 700;
+        transition: 0.3s;
+        text-decoration: none;
+        color: $c-white;
+        &:hover{
+            color: $c-black;
+            background-color: $c-white;
+        }
+    }
+    .btn-activate{
+        color: $c-black;
+        background-color: $c-white;
+    }
+  }
+}

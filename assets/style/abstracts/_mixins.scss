@@ -1,3 +1,69 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+
+
+// reisponsive
+@mixin risponsive($device) {
+    // Extra small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap
+
+    @if($device == "xm"){
+        // Small devices (landscape phones, 0 and up)
+        @media (min-width: 0) {
+            @content;
+        }
+    }
+
+    @if($device == "sm"){
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @if($device == "md"){
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+
+    @if(){
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+// typography
+@mixin typography($color,$font-size,$font-weight,$line-height,$dir,$text-align,$font-family,$padding,$margin) {
+    @if($color != null){
+      color: $color;
+    }
+    @if($font-size != null){
+      font-size: $font-size;
+    }
+    @if($font-weight != null){
+      font-weight: $font-weight;
+    }
+    @if($line-height != null){
+      line-height: $line-height;
+    }
+    @if($dir != null){
+      direction: $dir;
+    }
+    @if($text-align != null){
+      text-align: $text-align;
+    }
+    @if($font-family != null){
+      font-family: $font-family;
+    }
+    @if($padding != null){
+      padding: $padding;
+    }
+    @if($font-family != null){
+      margin: $margin;
+    }
+  }

@@ -1,3 +1,75 @@
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $f-vazir;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include risponsive("xm") {
+    width: 100%;
+  }
+
+  @include risponsive("sm") {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @include risponsive("md") {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @include risponsive("lg") {
+    .container {
+      width: 1170px;
+    }
+  }
+} 
+
+.package-share {
+  @extend %d-flex;
+  @extend %justify-content-between;
+  @extend %align-items-center;
+
+  .package-share__item {
+    margin-right: 5px;
+    text-decoration: none;
+    color: $c-secon;
+    background-color: $c-white;
+    padding: 2px 12px;
+    font-size: 21px;
+    transition: all 0.2s;
+    border-radius: 2px;
+  }
+  .google-icon {
+    &:hover {
+      background-color: $c-google !important;
+      color: $c-white !important;
+    }
+  }
+
+  .twitter-icon {
+    &:hover {
+      background-color: $c-twitter !important;
+      color: $c-white !important;
+    }
+  }
+
+  .facebook-icon {
+    &:hover {
+      background-color: $c-facebook !important;
+      color: $c-white !important;
+    }
+  }
+}
