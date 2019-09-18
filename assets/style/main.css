@@ -1,11 +1,11 @@
-@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css");
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Vazir;
+  font-family: "Vazir", sans-serif;
 }
 
 .container {
@@ -86,7 +86,7 @@
 
 .scroll-top {
   position: fixed;
-  left: 40px;
+  left: 25px;
   bottom: 60px;
   background: #fff;
   border-radius: 2px;
@@ -100,56 +100,7 @@
   text-align: center;
   cursor: pointer;
   display: none;
-}
-
-/* این فایل وظیفه تعریف و بارگذاری فونت های «فونت ایران» را برعهده دارد */
-/* پیشنهاد می شود از این روش استفاده کنید */
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Bold.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir-Bold.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir-Bold.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Black.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir-Black.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir-Black.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Medium.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir-Medium.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir-Medium.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Light.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir-Light.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir-Light.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Thin.eot");
-  src: url("../../../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix") format("embedded-opentype"), url("../../../node_modules/vazir-font/dist/Vazir-Thin.woff2") format("woff2"), url("../../../node_modules/vazir-font/dist/Vazir-Thin.woff") format("woff"), url("../../../node_modules/vazir-font/dist/Vazir-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+  z-index: 1000;
 }
 
 /**
@@ -789,7 +740,7 @@ main > div .btn-go-buy-box:active:before {
   #section-body .container .section-body__more-package .card-fixed {
     position: fixed;
     top: 25px;
-    left: 62px;
+    left: 50px;
     z-index: 5;
     width: 342px;
     height: 528px;
@@ -1189,16 +1140,6 @@ main > div .btn-go-buy-box:active:before {
   }
 }
 
-@media (min-width: 992px) {
-  #section-body-2 .container .section-body2__package {
-    -ms-flex-preferred-size: 68%;
-        flex-basis: 68%;
-    position: relative;
-    top: -70px;
-    margin-bottom: 0 !important;
-  }
-}
-
 @media (min-width: 1200px) {
   #section-body-2 .container .section-body2__package {
     -ms-flex-preferred-size: 68%;
@@ -1335,13 +1276,6 @@ main > div .btn-go-buy-box:active:before {
   #section-body-2 .container .section-body2__more-package {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  #section-body-2 .container .section-body2__more-package {
-    -ms-flex-preferred-size: 30%;
-        flex-basis: 30%;
   }
 }
 

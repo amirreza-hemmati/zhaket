@@ -70,7 +70,7 @@
 
 .scroll-top{
   position: fixed;
-  left: 40px;
+  left: 25px;
   bottom: 60px;
   background: #fff;
   border-radius: 2px;
@@ -83,4 +83,5 @@
   text-align: center;
   cursor: pointer;
   display: none;
+  z-index: 1000;
 }

@@ -143,7 +143,7 @@
         .card-fixed{
           position: fixed;
           top: 25px;
-          left: 62px;
+          left: 50px;
           z-index: 5;
           width: 342px;
           height: 528px;
@@ -495,7 +495,7 @@
         margin-bottom: 40px;
       }
 
-      @include risponsive("md") {
+      @include risponsive("lg") {
         flex-basis: 68%;
         position: relative;
         top: -70px;
@@ -614,7 +614,7 @@
         flex-basis: 100%;
       }
 
-      @include risponsive("md") {
+      @include risponsive("lg") {
         flex-basis: 30%;
       }
     }

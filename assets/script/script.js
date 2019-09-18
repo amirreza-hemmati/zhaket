@@ -36,9 +36,16 @@
     });
 
     // toggle text section.child
+    let toggleBool = true;
     $(".show-more > a").click(e => { 
         e.preventDefault();
-        $(".d-none").slideToggle("slow");        
+        $(".d-none").slideToggle("slow");
+        if(toggleBool){
+            $(".show-more > a").text("نمایش کمتر");
+        }else{
+            $(".show-more > a").text("نمایش بیشتر");
+        }
+        toggleBool = !toggleBool;
     });
 
     // tooltip
