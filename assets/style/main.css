@@ -193,7 +193,7 @@
     margin-left: 5px;
     color: #fff;
     background: #142736;
-    padding: 13px 15px;
+    padding: 9px 15px;
   }
   #section-breadcrumbs .section-breadcrumbs__links a:hover {
     color: #000;
@@ -207,7 +207,7 @@
     margin-left: 5px;
     color: #fff;
     background: #142736;
-    padding: 13px 15px;
+    padding: 9px 15px;
   }
   #section-breadcrumbs .section-breadcrumbs__links a:hover {
     color: #000;
@@ -555,7 +555,7 @@ main > div .btn-go-buy-box:active:before {
   #section-breadcrumbs .section-breadcrumbs__links {
     display: block !important;
     width: auto;
-    bottom: 12px !important;
+    bottom: 8px !important;
     right: 15px !important;
   }
 }
@@ -564,7 +564,7 @@ main > div .btn-go-buy-box:active:before {
   #section-breadcrumbs .section-breadcrumbs__links {
     display: block !important;
     width: auto;
-    bottom: 12px !important;
+    bottom: 8px !important;
     right: 15px !important;
   }
 }
