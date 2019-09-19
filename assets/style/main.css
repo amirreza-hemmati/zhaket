@@ -569,32 +569,32 @@ main > div .btn-go-buy-box:active:before {
   }
 }
 
-#section-body .container {
-  padding-bottom: 35px;
-}
-
 @media (min-width: 0) {
-  #section-body .container {
+  .collapse {
     padding-top: 90px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  #section-body .container {
+  .collapse {
     padding-top: 90px !important;
   }
 }
 
 @media (min-width: 768px) {
-  #section-body .container {
+  .collapse {
     padding-top: 30px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  #section-body .container {
+  .collapse {
     padding-top: 30px !important;
   }
+}
+
+#section-body .container {
+  padding-bottom: 35px;
 }
 
 #section-body .container .section-body__package {
@@ -740,7 +740,6 @@ main > div .btn-go-buy-box:active:before {
   #section-body .container .section-body__more-package .card-fixed {
     position: fixed;
     top: 25px;
-    left: 50px;
     z-index: 5;
     width: 342px;
     height: 528px;
@@ -749,6 +748,7 @@ main > div .btn-go-buy-box:active:before {
     position: absolute;
     top: 2181px;
     z-index: 5;
+    left: 0 !important;
   }
 }
 

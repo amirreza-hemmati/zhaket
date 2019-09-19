@@ -31,6 +31,7 @@
     <div class="scroll-top">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </div>
+
     <section id="section-breadcrumbs">
       <div class="container">
         <div class="section-breadcrumbs__content">
@@ -47,238 +48,253 @@
         </div>
       </div>
       <div class="section-breadcrumbs__links">
-        <a href="#" class="btn-activate">جزئیات محصول</a>
-        <a href="#">درگاه ها</a>
-        <a href="#">پشتیبانی محصول</a>
+        <a href="#" id="btn-collapse-1" class="btn-activate">جزئیات محصول</a>
+        <a href="#" id="btn-collapse-2">درگاه ها</a>
+        <a href="#" id="btn-collapse-3">پشتیبانی محصول</a>
       </div>
     </section>
 
-    <section id="section-body">
-      <div class="container">
-        <div class="section-body__package">
-          <div class="card">
-            <div class="card-img">
-              <a href="#">
-                <img src="assets/image/cover_sigmav46.png"
-                  title="اسکریپت یونیکس | ربات تلگرام زیرمجموعه گیری و قرعه کشی"
-                  alt="اسکریپت یونیکس | ربات تلگرام زیرمجموعه گیری و قرعه کشی" />
-              </a>
-            </div>
-            <div class="card-content">
-              <div class="package-keys">
-                  <div>
-                      <a href="#" class="package-keys__btn package-keys-hover">
-                        تصاویر محصول
-                        <i class="fa fa-image"></i>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="#" class="package-keys__btn">
-                        پیش نمایش آنلاین
-                        <i class="fa fa-desktop"></i>
+    <div class="collapse">
+      <div class="data-collapse-1">
+        <section id="section-body">
+          <div class="container">
+            <div class="section-body__package">
+              <div class="card">
+                <div class="card-img">
+                  <a href="#">
+                    <img src="assets/image/cover_sigmav46.png"
+                      title="اسکریپت یونیکس | ربات تلگرام زیرمجموعه گیری و قرعه کشی"
+                      alt="اسکریپت یونیکس | ربات تلگرام زیرمجموعه گیری و قرعه کشی" />
                   </a>
                 </div>
-              </div>
-              <div class="package-share">
-                <div>
-                  <a href="#" class="package-share__item google-icon"><i class="fa fa-google"
-                      aria-hidden="true"></i></a>
-                  <a href="#" class="package-share__item twitter-icon"><i class="fa fa-twitter"
-                      aria-hidden="true"></i></a>
-                  <a href="#" class="package-share__item facebook-icon"><i class="fa fa-facebook"
-                      aria-hidden="true"></i></a>
+                <div class="card-content">
+                  <div class="package-keys">
+                      <div>
+                          <a href="#" class="package-keys__btn package-keys-hover">
+                            تصاویر محصول
+                            <i class="fa fa-image"></i>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="#" class="package-keys__btn">
+                            پیش نمایش آنلاین
+                            <i class="fa fa-desktop"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="package-share">
+                    <div>
+                      <a href="#" class="package-share__item google-icon"><i class="fa fa-google"
+                          aria-hidden="true"></i></a>
+                      <a href="#" class="package-share__item twitter-icon"><i class="fa fa-twitter"
+                          aria-hidden="true"></i></a>
+                      <a href="#" class="package-share__item facebook-icon"><i class="fa fa-facebook"
+                          aria-hidden="true"></i></a>
+                    </div>
+                    <span>اشتراک گذاری محصول</span>
+                  </div>
                 </div>
-                <span>اشتراک گذاری محصول</span>
               </div>
             </div>
+    
+            <aside class="section-body__more-package">
+              <div class="card my-fixed">
+                <div class="card-header">
+                  <span>149,000 &nbsp;<span>تومان</span></span>
+                  <a href="#" class="tooltip" title="مشاهده لیست علاقه مندی ها">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p>
+                    خرید محصول توسط کلیه کارت های شتاب امکان پذیر است و بلافاصله پس از خرید، لینک دانلود محصول در اختیار شما
+                    قرار خواهد گرفت.
+                  </p>
+                  <div class="alert-secondary">
+                    <h5>با خرید این محصول از مزایای زیر بهره‌مند می‌شوید:</h5>
+                    <ul>
+                      <li>دسترسی به فایل محصول به صورت مادام‌العمر</li>
+                      <li>۶ ماه پشتیبانی کاملا رایگان و تضمین شده</li>
+                    </ul>
+                  </div>
+                  <div class="price-form">
+                    <input type="checkbox" name="price" id="price-checkbox" />
+                    <label for="price-checkbox">6 ماه پشتیبانی بیشتر (59,600 تومان)</label>
+                  </div>
+                  <div class="go-to-buy-box">
+                    <a href="#" class="btn-go-buy-box">
+                      خرید این محصول
+                      <i class="fa fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                  <div class="border-price"></div>
+                  <div class="star-price">
+                    <div class="five-star">
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="score-price">
+                      امتیاز: ۰ از ۰ رای
+                    </div>
+                  </div>
+                  <div class="product-price">
+                    <div>
+                      <div class="tooltip" title="محصول ایرانی">
+                        <img src="https://zhaket.com/wp-content/uploads/2017/07/iranian-product.svg" title="محصول ایرانی" />
+                      </div>
+                      <div>
+                        <img src="https://zhaket.com/wp-content/uploads/2017/07/original-product.svg"
+                          class="tooltip"
+                          title="اصالت اورجینال بودن محصول تایید شده است">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
-        </div>
-
-        <aside class="section-body__more-package">
-          <div class="card my-fixed">
-            <div class="card-header">
-              <span>149,000 &nbsp;<span>تومان</span></span>
-              <a href="#" class="tooltip" title="مشاهده لیست علاقه مندی ها">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-              </a>
+          </aside>
+        </section>
+        <section id="section-body-2">
+          <div class="container">
+            <div class="section-body2__package">
+    
+    
+              <div class="card">
+                <div class="show-more">
+                  <a href="#" dideo-checked="true">نمایش بیشتر</a>
+                </div>
+                <p class="strog-p"><strong>اسکریپت یونیکس | </strong><strong>ربات تلگرام قرعه کشی و
+                  </strong><strong>زیرمجموعه گیری</strong></p>
+                <div class="d-irankala-image">
+                  <img src="assets/image/irankala.png" alt="irankala">
+                </div>
+                <p class="p-line">
+                  اگر می خواهید اعضای کانال خود را افزایش دهید این ربات بهترین گزینه برای شما می باشد.
+                </p>
+                <p class="p-line">
+                  دمو ربات:
+                  <a href="https://t.me/zirmajmoegiri4bot" dideo-checked="true">@zirmajmoegiri4bot</a>
+                </p>
+                <div class="bot-image mbottom">
+                  <img src="assets/image/bot-image.png" alt="bot-image">
+                </div>
+                <div class="d-none">
+                  <h3>لیست کامل امکانات <strong>اسکریپت یونیکس</strong>&nbsp;:</h3>
+                  <ul>
+                    <li>امکان ارسال تبلیغات شامل عکس،ویدئو،گیف،متن بلند همراه با عکس و… بدون نام به کاربران</li>
+                    <li>امکان مشاهده تعداد اعضا توسط ادمین های اصلی</li>
+                    <li>ارائه لینک اختصاصی به کاربران</li>
+                    <li>امکان مشاهده تعداد کاربر معرفی شده هر کاربر</li>
+                    <li>امکان تبدیل امتیاز به بن تخفیف</li>
+                    <li>امکان پاسخگویی به پیام های دریافتی از کاربران با ریپلای کردن پیام</li>
+                    <li>امکان افزودن هر تعداد ادمین جدید در سورس کد به راحتی</li>
+                    <li>امکان شناسایی افرادی که ربات را بلاک کرده اند</li>
+                    <li>امکان تعریف بی نهایت کد تخفیف برای کاربران مختلف – هر کد مخصوص یک کاربر</li>
+                    <li>امکان خروجی کدهای تخفیف فعال به صورت فایل تکست</li>
+                    <li>امکان خروجی کدهای تخفیف استفاده شده به صورت فایل تکست</li>
+                    <li>امکان بررسی تعداد زیرمجموعه کاربران</li>
+                    <li>اطلاع به ادمین اصلی در صورت استفاده از کد تخفیف توسط کاربر</li>
+                    <li>صدور کدهای تخفیف مختلف از ۱۰ درصد تا ۱۰۰</li>
+                    <li>عضویت اجباری در کانال برای استفاده از ربات</li>
+                    <li>بهینه سازی الگوریتم زیرمجموعه گیری برای کسانی که عضو کانال نیستند</li>
+                    <li>امکان ثبت نام کاربران بعد از رسیدن به تعداد مدنظر برای دعوت</li>
+                    <li>اختصاص دادن ردیف شانس به ازای دعوت هر کاربر</li>
+                    <li>امکان قرعه کشی بر اساس ردیف های شانس کاربران</li>
+                    <li>حذف ردیف های شانس کاربر پس از برنده شدن در قرعه کشی</li>
+                    <li>تشخیص عضو بودن کاربر در کانال و فعال بودن در ربات قبل از اعلام نتیجه قرعه کشی</li>
+                    <li>حذف زیرمجموعه های کاربر برنده شده در صورتی که از کانال لفت داده باشد</li>
+                    <li>حذف زیرمجموعه های کاربر برنده شده در صورتی که ربات را بلاک کرده باشد</li>
+                    <li>دریافت لیست کاربران به همراه اطلاعات آنها به صورت فایل html</li>
+                    <li>مشاهده اطلاعات کاربر خاص از پنل ادمین</li>
+                    <li>تعیین تعداد کاربر مدنظر برای دعوت به صورت مستقیم از داخل پنل ادمین</li>
+                    <li>امکان حذف کدهای تخفیف</li>
+                    <li>امکان بلاک و آنبلاک کاربران</li>
+                  </ul>
+                  <br>
+                  <hr>
+                  <h3><strong>نکات مهم در مورد فایل دانلود شده ربات تلگرام قرعه کشی و </strong><strong>زیرمجموعه گیری
+                    </strong><strong>:</strong></h3>
+                  <ul class="mbottom">
+                    <li>برای اجرای سورس نیاز به هاست با حداقل حجم ۵۰ مگابایت و پهنای باند ۱۰ گیگ نیاز هست ( در صورت درخواست
+                      به شما شرکت معتبر در این زمینه معرفی می کنیم )</li>
+                    <li>دامنه مورد استفاده برای ربات می بایست حتما دارای ssl معتبر باشد.</li>
+                    <li>در صورت وجود مشکل در نصب، دفعه اول به صورت رایگان برای شما نصب انجام می شود.</li>
+                    <li>فایل راهنما مرحله به مرحله برای راه اندازی و نصب ربات در فایل زیپ دانلود شده پس از خرید موجود است.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <p>
-                خرید محصول توسط کلیه کارت های شتاب امکان پذیر است و بلافاصله پس از خرید، لینک دانلود محصول در اختیار شما
-                قرار خواهد گرفت.
-              </p>
-              <div class="alert-secondary">
-                <h5>با خرید این محصول از مزایای زیر بهره‌مند می‌شوید:</h5>
+            <div class="myscrolltop"></div>
+            <aside class="section-body2__more-package">
+              <div class="card sum-store-bot">
+                <i class="fa fa-shopping-cart"></i>
+                <span>1</span>  
+                فروش
+              </div>
+              <div class="card card-unix">
+                <div class="unix">
+                    <img src="assets/image/unix.png" alt="unix" />
+                    <div>
+                        <h4>
+                            <a href="#">یونیکس تیم</a>
+                          </h4>
+                          <a href="https://zhaket.com/store/unixteam/" class="store-url" dideo-checked="true"><i class="fa fa-user"></i> مشاهده فروشگاه</a>
+                    </div>
+                </div>
+                <div class="unix-icon">
+                  <img src="assets/image/sales-count-1.svg" alt="sales-count"  class="tooltip" title="تعداد فروش: کمتر از 10"/>
+                  <img src="assets/image/products-lvl1.svg" alt="products"  class="tooltip" title="تعداد محصولات: کمتر از 10"/>
+                  <img src="assets/image/buys-lvl2.svg" alt="busy"  class="tooltip" title="پنج تا بیست خرید از راکت" />
+                  <img src="https://zhaket.com/wp-content/uploads/2017/07/iranian-product.svg" class="tooltip" alt="iranKALA class=" title="دارای یک محصول ایرانی">
+                </div>
+                <div class="iscroll"></div>
+              </div>
+              <div class="card card-date-more">
                 <ul>
-                  <li>دسترسی به فایل محصول به صورت مادام‌العمر</li>
-                  <li>۶ ماه پشتیبانی کاملا رایگان و تضمین شده</li>
+                  <li><span class="title">تاریخ انتشار:</span><span class="value">۲۰ شهریور ۱۳۹۸</span></li>
+                  <li><span class="title">۲۰ شهریور ۱۳۹۸</span><span class="value">۲۰ شهریور ۱۳۹۸</span></li>
+                  <li><span class="title">نسخه:</span><span class="value">4</span></li>
+                  <li><span class="title">دیدگاه‌ها:</span><span class="value">۶ دیدگاه</span></li>
                 </ul>
               </div>
-              <div class="price-form">
-                <input type="checkbox" name="price" id="price-checkbox" />
-                <label for="price-checkbox">6 ماه پشتیبانی بیشتر (59,600 تومان)</label>
+              <div class="card card-seo">
+                <a href="#">اسکریپت بازی آنلاین</a>
+                <a href="#">اسکریپت رباط تلگرام</a>
+                <a href="#">اسکریپت</a>
+                <a href="#">اسکریپت قرعه کشی آنلاین</a>
+                <a href="#">اسکریپت یونیکس</a>
+                <a href="#">افزایش اعضا</a>
+                <a href="#">تلگرام</a>
+                <a href="#">ایرانی</a>
+                <a href="#">ربات افزایش عضو تلگرام</a>
+                <a href="#">ربات تلگرام</a>
+                <a href="#">ربات تلگرام افزایش اعضا کانال</a>
+                <a href="#">ربات تلگرام قرعه کشی و زیر مجموعه گیری</a>
+                <a href="#">ربات عضوگیری تلگرام</a>
+                <a href="#">ربات قرعه کشی آنلاین</a>
+                <a href="#">عضو گیری کانال تلگرام</a>
               </div>
-              <div class="go-to-buy-box">
-                <a href="#" class="btn-go-buy-box">
-                  خرید این محصول
-                  <i class="fa fa-shopping-cart"></i>
-                </a>
-              </div>
-              <div class="border-price"></div>
-              <div class="star-price">
-                <div class="five-star">
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <div class="score-price">
-                  امتیاز: ۰ از ۰ رای
-                </div>
-              </div>
-              <div class="product-price">
-                <div>
-                  <div class="tooltip" title="محصول ایرانی">
-                    <img src="https://zhaket.com/wp-content/uploads/2017/07/iranian-product.svg" title="محصول ایرانی" />
-                  </div>
-                  <div>
-                    <img src="https://zhaket.com/wp-content/uploads/2017/07/original-product.svg"
-                      class="tooltip"
-                      title="اصالت اورجینال بودن محصول تایید شده است">
-                  </div>
-                </div>
-              </div>
-            </div>
+            </aside>
           </div>
+        </section>
       </div>
-      </aside>
-    </section>
 
-    <section id="section-body-2">
-      <div class="container">
-        <div class="section-body2__package">
-
-
-          <div class="card">
-            <div class="show-more">
-              <a href="#" dideo-checked="true">نمایش بیشتر</a>
-            </div>
-            <p class="strog-p"><strong>اسکریپت یونیکس | </strong><strong>ربات تلگرام قرعه کشی و
-              </strong><strong>زیرمجموعه گیری</strong></p>
-            <div class="d-irankala-image">
-              <img src="assets/image/irankala.png" alt="irankala">
-            </div>
-            <p class="p-line">
-              اگر می خواهید اعضای کانال خود را افزایش دهید این ربات بهترین گزینه برای شما می باشد.
-            </p>
-            <p class="p-line">
-              دمو ربات:
-              <a href="https://t.me/zirmajmoegiri4bot" dideo-checked="true">@zirmajmoegiri4bot</a>
-            </p>
-            <div class="bot-image mbottom">
-              <img src="assets/image/bot-image.png" alt="bot-image">
-            </div>
-            <div class="d-none">
-              <h3>لیست کامل امکانات <strong>اسکریپت یونیکس</strong>&nbsp;:</h3>
-              <ul>
-                <li>امکان ارسال تبلیغات شامل عکس،ویدئو،گیف،متن بلند همراه با عکس و… بدون نام به کاربران</li>
-                <li>امکان مشاهده تعداد اعضا توسط ادمین های اصلی</li>
-                <li>ارائه لینک اختصاصی به کاربران</li>
-                <li>امکان مشاهده تعداد کاربر معرفی شده هر کاربر</li>
-                <li>امکان تبدیل امتیاز به بن تخفیف</li>
-                <li>امکان پاسخگویی به پیام های دریافتی از کاربران با ریپلای کردن پیام</li>
-                <li>امکان افزودن هر تعداد ادمین جدید در سورس کد به راحتی</li>
-                <li>امکان شناسایی افرادی که ربات را بلاک کرده اند</li>
-                <li>امکان تعریف بی نهایت کد تخفیف برای کاربران مختلف – هر کد مخصوص یک کاربر</li>
-                <li>امکان خروجی کدهای تخفیف فعال به صورت فایل تکست</li>
-                <li>امکان خروجی کدهای تخفیف استفاده شده به صورت فایل تکست</li>
-                <li>امکان بررسی تعداد زیرمجموعه کاربران</li>
-                <li>اطلاع به ادمین اصلی در صورت استفاده از کد تخفیف توسط کاربر</li>
-                <li>صدور کدهای تخفیف مختلف از ۱۰ درصد تا ۱۰۰</li>
-                <li>عضویت اجباری در کانال برای استفاده از ربات</li>
-                <li>بهینه سازی الگوریتم زیرمجموعه گیری برای کسانی که عضو کانال نیستند</li>
-                <li>امکان ثبت نام کاربران بعد از رسیدن به تعداد مدنظر برای دعوت</li>
-                <li>اختصاص دادن ردیف شانس به ازای دعوت هر کاربر</li>
-                <li>امکان قرعه کشی بر اساس ردیف های شانس کاربران</li>
-                <li>حذف ردیف های شانس کاربر پس از برنده شدن در قرعه کشی</li>
-                <li>تشخیص عضو بودن کاربر در کانال و فعال بودن در ربات قبل از اعلام نتیجه قرعه کشی</li>
-                <li>حذف زیرمجموعه های کاربر برنده شده در صورتی که از کانال لفت داده باشد</li>
-                <li>حذف زیرمجموعه های کاربر برنده شده در صورتی که ربات را بلاک کرده باشد</li>
-                <li>دریافت لیست کاربران به همراه اطلاعات آنها به صورت فایل html</li>
-                <li>مشاهده اطلاعات کاربر خاص از پنل ادمین</li>
-                <li>تعیین تعداد کاربر مدنظر برای دعوت به صورت مستقیم از داخل پنل ادمین</li>
-                <li>امکان حذف کدهای تخفیف</li>
-                <li>امکان بلاک و آنبلاک کاربران</li>
-              </ul>
-              <br>
-              <hr>
-              <h3><strong>نکات مهم در مورد فایل دانلود شده ربات تلگرام قرعه کشی و </strong><strong>زیرمجموعه گیری
-                </strong><strong>:</strong></h3>
-              <ul class="mbottom">
-                <li>برای اجرای سورس نیاز به هاست با حداقل حجم ۵۰ مگابایت و پهنای باند ۱۰ گیگ نیاز هست ( در صورت درخواست
-                  به شما شرکت معتبر در این زمینه معرفی می کنیم )</li>
-                <li>دامنه مورد استفاده برای ربات می بایست حتما دارای ssl معتبر باشد.</li>
-                <li>در صورت وجود مشکل در نصب، دفعه اول به صورت رایگان برای شما نصب انجام می شود.</li>
-                <li>فایل راهنما مرحله به مرحله برای راه اندازی و نصب ربات در فایل زیپ دانلود شده پس از خرید موجود است.
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div class="data-collapse-2">
+        <div class="container">
+          collapse two
         </div>
-        <div class="myscrolltop"></div>
-        <aside class="section-body2__more-package">
-          <div class="card sum-store-bot">
-            <i class="fa fa-shopping-cart"></i>
-            <span>1</span>  
-            فروش
-          </div>
-          <div class="card card-unix">
-            <div class="unix">
-                <img src="assets/image/unix.png" alt="unix" />
-                <div>
-                    <h4>
-                        <a href="#">یونیکس تیم</a>
-                      </h4>
-                      <a href="https://zhaket.com/store/unixteam/" class="store-url" dideo-checked="true"><i class="fa fa-user"></i> مشاهده فروشگاه</a>
-                </div>
-            </div>
-            <div class="unix-icon">
-              <img src="assets/image/sales-count-1.svg" alt="sales-count"  class="tooltip" title="تعداد فروش: کمتر از 10"/>
-              <img src="assets/image/products-lvl1.svg" alt="products"  class="tooltip" title="تعداد محصولات: کمتر از 10"/>
-              <img src="assets/image/buys-lvl2.svg" alt="busy"  class="tooltip" title="پنج تا بیست خرید از راکت" />
-              <img src="https://zhaket.com/wp-content/uploads/2017/07/iranian-product.svg" class="tooltip" alt="iranKALA class=" title="دارای یک محصول ایرانی">
-            </div>
-            <div class="iscroll"></div>
-          </div>
-          <div class="card card-date-more">
-            <ul>
-              <li><span class="title">تاریخ انتشار:</span><span class="value">۲۰ شهریور ۱۳۹۸</span></li>
-              <li><span class="title">۲۰ شهریور ۱۳۹۸</span><span class="value">۲۰ شهریور ۱۳۹۸</span></li>
-              <li><span class="title">نسخه:</span><span class="value">4</span></li>
-              <li><span class="title">دیدگاه‌ها:</span><span class="value">۶ دیدگاه</span></li>
-            </ul>
-          </div>
-          <div class="card card-seo">
-            <a href="#">اسکریپت بازی آنلاین</a>
-            <a href="#">اسکریپت رباط تلگرام</a>
-            <a href="#">اسکریپت</a>
-            <a href="#">اسکریپت قرعه کشی آنلاین</a>
-            <a href="#">اسکریپت یونیکس</a>
-            <a href="#">افزایش اعضا</a>
-            <a href="#">تلگرام</a>
-            <a href="#">ایرانی</a>
-            <a href="#">ربات افزایش عضو تلگرام</a>
-            <a href="#">ربات تلگرام</a>
-            <a href="#">ربات تلگرام افزایش اعضا کانال</a>
-            <a href="#">ربات تلگرام قرعه کشی و زیر مجموعه گیری</a>
-            <a href="#">ربات عضوگیری تلگرام</a>
-            <a href="#">ربات قرعه کشی آنلاین</a>
-            <a href="#">عضو گیری کانال تلگرام</a>
-          </div>
-        </aside>
       </div>
-    </section>
+
+      <div class="data-collapse-3">
+        <div class="container">
+          collapse three
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="assets/script/jquery.js"></script>
