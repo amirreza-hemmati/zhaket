@@ -64,7 +64,8 @@
     toggleBool = !toggleBool;
   });
 
-  // collapse
+
+  // collapse data
   $(`.data-collapse-1`)
     .siblings("div")
     .css("display", "none");
